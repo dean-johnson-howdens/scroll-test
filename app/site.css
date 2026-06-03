@@ -1,0 +1,24 @@
+.mobile-primary-callout {
+    box-sizing: border-box;
+    padding: 21px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border: 1px solid green;
+    background-color: green;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.18em;
+
+    @media screen and (min-width: 64rem) {
+        display: none;
+    }
+}

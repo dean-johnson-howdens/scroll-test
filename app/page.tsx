@@ -1,65 +1,21 @@
-import Image from "next/image";
+import "./site.css"
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa elit, laoreet vitae tincidunt sed, fermentum ut tortor. Integer semper ipsum tellus. Fusce sit amet eros eget mi vulputate venenatis. Maecenas id lectus a metus consequat lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam scelerisque, nisl eu sollicitudin iaculis, odio urna dignissim enim, non semper sapien sapien at eros. Vestibulum ac consectetur odio. Vestibulum eget lorem odio. Praesent volutpat elit ipsum, ut sodales erat lacinia non.</p>
+        <p>Etiam convallis, neque ac malesuada mattis, purus nunc varius velit, eget convallis leo velit at turpis. Etiam sed libero sit amet urna vehicula fringilla vitae quis neque. Mauris erat lectus, malesuada sed erat fringilla, volutpat malesuada velit. Ut viverra magna justo, et interdum neque posuere a. Nunc imperdiet malesuada nulla eget dictum. Nam sit amet bibendum metus, vel accumsan elit. Ut auctor tortor sed sem convallis viverra. Aliquam erat volutpat. Morbi quis nisi vel est semper cursus. Nullam egestas nisi eget tincidunt scelerisque. Morbi vulputate justo ac nisi dictum molestie ac quis odio. Etiam ullamcorper mattis accumsan. Morbi eleifend est eget posuere fringilla. Mauris condimentum volutpat velit eleifend convallis. Suspendisse hendrerit maximus est, sit amet semper est feugiat id. Nullam volutpat dui sit amet facilisis pellentesque.</p>
+        <p>Donec eget ligula enim. Donec rhoncus pellentesque nulla ut iaculis. Sed ut tempus nibh, et hendrerit leo. Donec aliquam nibh pharetra massa scelerisque tristique vel vitae risus. Morbi faucibus tortor ligula, quis finibus est eleifend non. Praesent in leo sit amet neque sagittis mollis. Duis ullamcorper, eros at fermentum vehicula, arcu sem aliquet nisi, nec fermentum nunc dui quis nulla. Sed finibus faucibus ipsum, nec iaculis ligula consectetur ut. In scelerisque tincidunt elit ut condimentum.</p>
+        <p>Aliquam eget sem erat. Vivamus sed pretium neque. Aliquam interdum sapien et tincidunt luctus. Fusce et suscipit dolor. Ut vestibulum ex dapibus quam eleifend maximus. Aenean vel nunc euismod libero tempus condimentum. Duis vitae nisi ut erat scelerisque tristique.</p>
+        <p>Integer vel mi massa. Pellentesque varius, risus non dignissim eleifend, sem nisl consectetur dui, eget iaculis leo erat in metus. Vestibulum elit mi, facilisis eu hendrerit non, convallis non urna. Fusce a ipsum suscipit, ultricies enim at, fermentum sapien. In ligula ex, consequat quis neque eget, luctus interdum ligula. Nullam pulvinar laoreet venenatis. Phasellus eget ultrices enim, quis pulvinar eros. Ut condimentum lacus mi, eget efficitur elit tincidunt vel. Curabitur convallis vulputate erat, a semper quam bibendum nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In tincidunt varius posuere. Vestibulum ex lectus, viverra et sem quis, posuere posuere tortor. Cras eleifend diam in urna tincidunt, vel consequat urna auctor. Maecenas sagittis erat eget est molestie sagittis. Duis euismod est in sem commodo laoreet sit amet id libero.</p>
+        <p>Praesent dignissim risus urna, et sagittis urna pellentesque in. Fusce non auctor sapien. Donec at venenatis nibh. Curabitur et quam imperdiet velit volutpat imperdiet. Pellentesque mauris nulla, rutrum et eleifend non, tristique eget neque. Etiam mattis varius diam, sed semper eros vestibulum sed. Donec eget elit faucibus, molestie tellus a, blandit risus. Nulla accumsan mattis faucibus. Pellentesque a lectus lorem. Integer cursus, dolor sed mollis bibendum, nibh turpis egestas justo, non efficitur leo ligula ullamcorper est. Morbi fermentum diam congue metus bibendum sagittis.</p>
+        <p>Cras fermentum lectus vel purus sollicitudin, et dignissim justo pharetra. Ut sed laoreet nisi, quis maximus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed efficitur, est nec condimentum pellentesque, ante ipsum pretium diam, ut placerat felis enim sit amet quam. Phasellus ac dapibus turpis. Sed consequat placerat mi vel placerat. Phasellus at condimentum lectus. Ut fringilla commodo mi. Vivamus sit amet nisi vitae purus eleifend placerat fermentum vel urna. Fusce egestas ex neque, faucibus malesuada ex ullamcorper quis. Quisque blandit vitae diam a commodo. Phasellus eget aliquet mauris, non molestie ante. Fusce at ante sit amet sem ultrices vulputate non id mi. Praesent accumsan ligula ex, vitae faucibus nibh placerat id. Cras sit amet arcu magna.</p>
+        <p>Proin luctus interdum turpis, ornare convallis ante aliquam vitae. Maecenas dapibus libero id quam ornare posuere. Nulla egestas luctus maximus. Maecenas sit amet augue sed nisl varius venenatis non ullamcorper eros. Phasellus pellentesque tellus vitae quam imperdiet mollis. Aenean eget lorem nibh. Nulla et ex et lectus suscipit vulputate eget vitae augue. Aenean vel suscipit libero, et placerat velit.</p>
+        <p>Praesent tempor faucibus iaculis. Suspendisse in metus a mi venenatis varius sit amet nec lorem. Cras congue eu mauris et vehicula. Mauris eu lectus malesuada, suscipit nulla suscipit, sodales ipsum. Phasellus dapibus, enim ac tempus rhoncus, risus dui venenatis nibh, nec sagittis dolor massa vel nunc. Quisque euismod mauris ipsum, vitae fringilla orci ornare eu. Phasellus rutrum sem in imperdiet efficitur. Curabitur a erat ut turpis efficitur ultricies. Pellentesque ut congue libero, et elementum nibh. Suspendisse eu dolor a magna condimentum dignissim. Fusce tincidunt ultrices magna, sed ullamcorper dui cursus ut. Ut dignissim purus ut sollicitudin laoreet. Sed ultricies erat ut faucibus tempus. Nullam sit amet sagittis enim. Aenean eu tincidunt justo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada nulla non ornare rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget rhoncus felis. Maecenas laoreet varius eros. Nulla facilisi. Nam facilisis auctor velit, in efficitur neque tincidunt faucibus. Nulla vehicula mi magna, nec sodales leo varius nec. Integer ultricies nibh sit amet quam euismod gravida. Vivamus augue augue, molestie quis lectus in, pellentesque aliquet orci.</p>
+      </div>
+      <a href="" className="mobile-primary-callout">CLICK MEEEEEEEE</a>
     </div>
   );
 }
