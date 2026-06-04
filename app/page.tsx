@@ -1,6 +1,12 @@
+"use client"
+
 import "./site.css"
 
 export default function Home() {
+  function clicked() {
+    alert("Hello");
+  }
+
   return (
     <div>
       <div className="content">
@@ -15,7 +21,7 @@ export default function Home() {
         <p>Praesent tempor faucibus iaculis. Suspendisse in metus a mi venenatis varius sit amet nec lorem. Cras congue eu mauris et vehicula. Mauris eu lectus malesuada, suscipit nulla suscipit, sodales ipsum. Phasellus dapibus, enim ac tempus rhoncus, risus dui venenatis nibh, nec sagittis dolor massa vel nunc. Quisque euismod mauris ipsum, vitae fringilla orci ornare eu. Phasellus rutrum sem in imperdiet efficitur. Curabitur a erat ut turpis efficitur ultricies. Pellentesque ut congue libero, et elementum nibh. Suspendisse eu dolor a magna condimentum dignissim. Fusce tincidunt ultrices magna, sed ullamcorper dui cursus ut. Ut dignissim purus ut sollicitudin laoreet. Sed ultricies erat ut faucibus tempus. Nullam sit amet sagittis enim. Aenean eu tincidunt justo.</p>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut malesuada nulla non ornare rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget rhoncus felis. Maecenas laoreet varius eros. Nulla facilisi. Nam facilisis auctor velit, in efficitur neque tincidunt faucibus. Nulla vehicula mi magna, nec sodales leo varius nec. Integer ultricies nibh sit amet quam euismod gravida. Vivamus augue augue, molestie quis lectus in, pellentesque aliquet orci.</p>
       </div>
-      <a href="" className="mobile-primary-callout">CLICK MEEEEEEEE</a>
+      <a onClick={clicked} className="mobile-primary-callout pointer">CLICK MEEEEEEEE</a>
     </div>
   );
 }

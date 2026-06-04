@@ -7,3 +7,7 @@
 .no-overscroll {
     overscroll-behavior-y: none;
 }
+
+.pointer {
+    cursor: pointer;
+}
