@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="main-window">
-      <body>{children}</body>
+      <body className="main-window">{children}</body>
     </html>
   );
 }
