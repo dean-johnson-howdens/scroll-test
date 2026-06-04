@@ -3,3 +3,7 @@
 .window-height {
     height: 100dvh;
 }
+
+.no-overscroll {
+    overscroll-behavior-y: none;
+}

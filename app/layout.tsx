@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="main-window">
-      <body className="main-window">{children}</body>
+      <body className="main-window no-overscroll">{children}</body>
     </html>
   );
 }
