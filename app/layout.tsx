@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="main-window">
-      <body className="main-window no-overscroll">{children}</body>
+    <html lang="en" className="window-height">
+      <body className="window-height">{children}</body>
     </html>
   );
 }
